@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.academic.design.Activities.ProfileActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="205dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_email"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        >
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileName" android:text="William Scott" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileEmail" android:text="me@email.com" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileUsername" android:text="myusername" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_settings_system_daydream_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileRole" android:text="Subscriber" />
+
+    </LinearLayout>
+</LinearLayout>
